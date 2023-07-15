@@ -1,0 +1,38 @@
+.texto{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    
+}
+
+.texto p{
+    color: black;
+    text-align: left;
+    line-height: 2;
+}
+
+.verde{
+    color: forestgreen;
+}
+
+.rojo{
+    color: red;
+}
+
+.linea__doble{
+    text-decoration: overline underline;
+}
+
+.palabra__grande{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.azul{
+    color: blue;
+}
+
+.rojo__bold{
+    color: red;
+}

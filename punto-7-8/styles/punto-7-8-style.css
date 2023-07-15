@@ -1,0 +1,32 @@
+header {
+    background-color: #e4b1db;
+    padding: 10px;
+    margin: 45px;
+}
+
+.menu {
+    display: flex;
+    justify-content: left;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.menu ul li {
+    margin: 0 10px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.menu ul li a:hover {
+    background-color: blue;
+    color: #fff;
+}

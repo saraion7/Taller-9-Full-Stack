@@ -1,0 +1,25 @@
+table {
+    width: 75%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: yellow;
+    border-bottom: 1px dotted #000;
+}
+
+th {
+    border: 1px solid #000;
+    text-align: center;
+    padding: 0px;
+    color: red;
+    font-style: italic;
+}
+
+td {
+    border: 1px solid #000;
+    text-align: left;
+    padding: 0px;
+}
+
+td:last-child, th:last-child {
+    border-bottom: 1px dotted #fc0404;
+}
